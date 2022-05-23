@@ -9,8 +9,8 @@ Setup.setup
 page = Inputs.new
 page.load
 
-# Find the title and then grab the text
-title = page.title
+# Find the heading and then grab the text
+title = page.heading
 puts title.text
 
 # Wait and close
